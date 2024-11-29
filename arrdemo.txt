@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int arr[20],i,n,max,min,sum;
+float avg;
+clrscr();
+printf("Enter the size of the array");
+scanf("%d",&n);
+printf("Enter the no.of elements");
+for(i=0;i<n;i++)
+{
+scanf("%d",&arr[i]);
+}
+for(i=1;i<n;i++)
+{
+min=arr[0];
+max=arr[0];
+sum=a[0];
+if(min<arr[i])
+{
+min=arr[i];
+}
+if(max>arr[i])
+{
+max=arr[i];
+}
+sum=sum+arr[i];
+avg=sum/n;
+}
+printf("\n The min value is %d",min);
+printf("\n The max value is %d",max);
+printf("\n The avg value is %f",avg);
+getch();
+}
